@@ -1,7 +1,7 @@
-.home {
+.about {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
 
   > nav {
     display: flex;
@@ -10,9 +10,9 @@
 
     > a {
       font-size: 1em;
+      color: #04d361;
       font-weight: 300;
       letter-spacing: 0.2em;
-      color: #04d361;
       text-transform: uppercase;
       text-decoration: none;
       -webkit-transition: color 0.15s ease;
@@ -31,8 +31,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     height: 100%;
+    padding: 0 100px;
 
     > h3 {
       font-size: 4em;
@@ -44,44 +44,45 @@
       word-wrap: break-word;
     }
 
-    > a {
-      font-size: 2em;
-      line-height: 1.2em;
-      color: #7159c1;
-      text-decoration: none;
-      -webkit-transition: color 0.15s ease;
-      -moz-transition: color 0.15s ease;
-      transition: color 0.15s ease;
-      margin: 30px 0 0 0;
-      word-wrap: break-word;
-
-      &:hover {
-        color: #a191d6;
-        text-shadow: none;
-        border: none;
-      }
+    > div {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 35px;
+      margin: 50px 0 0 0;
     }
   }
 }
 
 @media screen and (min-width: 1920px) {
-  .home {
+  .about {
     > nav {
       padding: 30px 300px;
+    }
+
+    > main {
+      padding: 0 300px;
     }
   }
 }
 
 @media screen and (max-width: 1100px) {
-  .home {
+  .about {
     > nav {
       padding: 30px 100px;
+    }
+
+    > main {
+      padding: 0 100px;
+
+      > div {
+        grid-template-columns: repeat(2, 1fr);
+      }
     }
   }
 }
 
 @media screen and (max-width: 720px) {
-  .home {
+  .about {
     > nav {
       padding: 30px;
     }
@@ -89,8 +90,8 @@
     > main {
       padding: 30px;
 
-      > a {
-        display: none;
+      > div {
+        grid-template-columns: 1fr;
       }
     }
   }
