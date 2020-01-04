@@ -4,7 +4,7 @@ import './styles.scss';
 
 export default function Home() {
   return (
-    <div className="container">
+    <div>
       <h3>React Template</h3>
       <small>
         <a href="https://github.com/melquisedecfelipe">github.com/melquisedecfelipe</a>
