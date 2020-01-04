@@ -11,7 +11,9 @@ export default function Home() {
       </nav>
       <main>
         <h3>React Template</h3>
-        <a href="https://github.com/melquisedecfelipe">github.com/melquisedecfelipe</a>
+        <a href="https://github.com/melquisedecfelipe/react-template">
+          github.com/melquisedecfelipe
+        </a>
       </main>
     </div>
   );
