@@ -1,14 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './styles.scss';
 
 export default function Home() {
   return (
-    <div>
-      <h3>React Template</h3>
-      <small>
+    <div className="home">
+      <nav>
+        <Link to="/about">About</Link>
+      </nav>
+      <main>
+        <h3>React Template</h3>
         <a href="https://github.com/melquisedecfelipe">github.com/melquisedecfelipe</a>
-      </small>
+      </main>
     </div>
   );
 }
