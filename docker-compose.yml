@@ -1,0 +1,11 @@
+version: "1"
+
+services:
+  bootstrap:
+    container_name: bootstrap
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
