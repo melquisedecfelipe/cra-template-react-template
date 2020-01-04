@@ -37,8 +37,10 @@ This project was developed with the following technologies:
 - [Commitizen](https://github.com/commitizen/cz-cli)
 - [Eslint](https://eslint.org/)
 - [Eslint import helpers](https://github.com/Tibfib/eslint-plugin-import-helpers)
+- [History](https://github.com/ReactTraining/history)
 - [Husky](https://github.com/typicode/husky)
 - [React](https://reactjs.org/)
+- [React icons](https://react-icons.netlify.com/)
 - [React router](https://reacttraining.com/react-router/)
 
 ## :information_source: How To Use
