@@ -36,6 +36,7 @@ This project was developed with the following technologies:
 - [Commitlint](https://github.com/conventional-changelog/commitlint)
 - [Commitizen](https://github.com/commitizen/cz-cli)
 - [Eslint](https://eslint.org/)
+- [Eslint import helpers](https://github.com/Tibfib/eslint-plugin-import-helpers)
 - [Husky](https://github.com/typicode/husky)
 - [React](https://reactjs.org/)
 - [React router](https://reacttraining.com/react-router/)
