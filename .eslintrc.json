@@ -22,7 +22,15 @@
       "warn",
       {
         "newlinesBetween": "always",
-        "groups": ["/^react/", "module", ["parent", "sibling", "index"]],
+        "groups": [
+          "/^react/",
+          "module",
+          "/components/",
+          "/services/",
+          "/store/",
+          "/utils/",
+          "/image/"
+        ],
         "alphabetize": { "order": "asc", "ignoreCase": true }
       }
     ]
