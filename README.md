@@ -51,11 +51,8 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 # Clone this repository
 $ git clone https://github.com/melquisedecfelipe/react-template
 
-# Go into the repository
-$ cd react-template
-
-# Install dependencies
-$ npm i
+# Go into the repository and install dependencies
+$ cd react-template && npm i
 
 # Run frontend
 $ npm start
