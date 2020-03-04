@@ -45,17 +45,11 @@ This project was developed with the following technologies:
 
 ## :information_source: How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16](https://nodejs.org/) or higher + [Yarn v1.13](https://yarnpkg.com/) or higher installed on your computer. From your command line:
+To clone and run this application, [Node.js v10.16](https://nodejs.org/) or higher + [Yarn v1.13](https://yarnpkg.com/) or higher installed on your computer. From your command line:
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/melquisedecfelipe/react-template
-
-# Go into the repository and install dependencies
-$ cd react-template && npm i
-
-# Run frontend
-$ npm start
+$ npx create-react-app my-app --template react-template
+$ cd my-app && npm start
 ```
 
 ## :memo: License
