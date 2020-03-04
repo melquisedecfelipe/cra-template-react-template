@@ -5,14 +5,14 @@ import './styles.scss';
 
 export default function Item({ title, description, link }) {
   return (
-    <div className="item">
+    <a href={link} target="_blank" rel="noopener noreferrer" className="item">
       <div>
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
-      <a href={link}>
+      <span>
         <MdArrowForward />
-      </a>
-    </div>
+      </span>
+    </a>
   );
 }
