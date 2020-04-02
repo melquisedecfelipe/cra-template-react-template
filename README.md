@@ -1,28 +1,24 @@
-<h1>
-    React Template
-    <br>
-</h1>
+<h1>React Template</h1>
 
 <p>
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/melquisedecfelipe/react-template.svg">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/melquisedecfelipe/cra-template-react-template.svg">
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/melquisedecfelipe/react-template.svg">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/melquisedecfelipe/cra-template-react-template.svg">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/melquisedecfelipe/react-template.svg">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/melquisedecfelipe/cra-template-react-template.svg">
   
-  <a href="https://github.com/melquisedecfelipe/react-template/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/melquisedecfelipe/react-template.svg">
+  <a href="https://github.com/melquisedecfelipe/cra-template-react-template/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/melquisedecfelipe/cra-template-react-template.svg">
   </a>
 
-  <a href="https://github.com/melquisedecfelipe/react-template/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/melquisedecfelipe/react-template.svg">
+  <a href="https://github.com/melquisedecfelipe/cra-template-react-template/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/melquisedecfelipe/cra-template-react-template.svg">
   </a>
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/melquisedecfelipe/react-template.svg">
+  <img alt="GitHub" src="https://img.shields.io/github/license/melquisedecfelipe/cra-template-react-template.svg">
 </p>
 
 <p>
-  <a href="https://mf-react-template.netlify.com">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
@@ -54,7 +50,7 @@ $ cd my-app && npm start
 
 ## :memo: License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/melquisedecfelipe/react-template/blob/master/LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE](https://github.com/melquisedecfelipe/cra-template-react-template/blob/master/LICENSE) for more information.
 
 ---
 
