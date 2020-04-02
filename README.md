@@ -45,6 +45,8 @@ To clone and run this application, [Node.js v10.16](https://nodejs.org/) or high
 
 ```bash
 $ npx create-react-app my-app --template react-template
+
+# Go into the repository and run frontend
 $ cd my-app && npm start
 ```
 
